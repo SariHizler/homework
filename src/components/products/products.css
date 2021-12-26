@@ -1,0 +1,9 @@
+#products{
+    display: flex;
+    top: 65px;
+    position: relative;
+    height: calc(100vh - 65px - 30px);
+    background-color: #f0f3f9;
+    box-shadow: inset -1px 1rem 1rem rgb(0 0 0 / 5%);
+    padding: 0 1rem;
+}

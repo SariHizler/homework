@@ -1,0 +1,11 @@
+#header{
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+}
+#title{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+}

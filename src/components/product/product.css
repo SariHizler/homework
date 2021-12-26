@@ -1,0 +1,21 @@
+.product{
+    padding-top: 15px;
+    border: rgb(224, 224, 224) 1px solid;
+    margin: 1.5rem 0;
+    padding:1rem;
+    display: flex;
+    cursor: pointer;
+    background: white;
+}
+.productImg{
+   
+    flex: 1;
+}
+.productNameAndDscription{
+    flex: 6;
+    padding-left: 1rem;
+}
+
+.productDescription{
+    margin-top: 2rem;
+}

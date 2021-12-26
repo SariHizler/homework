@@ -1,0 +1,49 @@
+
+#list{
+    overflow-y: scroll;
+    height: 100%;
+
+}
+#headerList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+#search{
+    width: 25%;
+    min-width:400px;
+}
+#sort{
+    display: flex;
+    flex-wrap: wrap;
+    width:25%; 
+    min-width:400px;
+
+}
+#sortLabel{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+#sortSelect{
+    width:70%;
+}
+@media screen and (max-width: 800px) {
+    #search{
+        min-width: 100%;    
+    }
+    #sort{
+        display: flex;
+        flex-wrap: wrap;
+        min-width:100%;
+    }
+  
+    #sortLabel{
+        margin-top: 15px ;
+        text-align: start;
+        width: 100%;
+    }
+    #sortSelect{
+        width:100%;
+    }
+}
